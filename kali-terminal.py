@@ -8,7 +8,7 @@ if str(input("This tool will install zsh and configure it like kali terminal. Co
     os.system("chsh -s $(which zsh)")
     os.system("clear")
     print()
-    os.system("mkdi ~/.config/zsh/")
+    os.system("mkdir ~/.config/zsh/")
     input()
     os.system("git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.config/zsh/zsh-syntax-highlighting")
     os.system("git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zsh-autosuggestions")
