@@ -9,6 +9,7 @@ if str(input("This tool will install zsh and configure it like kali terminal. Co
     os.system("clear")
     print()
     os.system("mkdi ~/.config/zsh/")
+    input()
     os.system("git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.config/zsh/zsh-syntax-highlighting")
     os.system("git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zsh-autosuggestions")
     os.system("git clone https://github.com/zap-zsh/sudo ~/.config/zsh/sudo-zsh")
