@@ -2,7 +2,9 @@
 ## Fonctionnalités
 Ce programme permet d'installer zsh et de le configurer pour le terminal soit sensiblement le même que kali linux. Il installe également trois plugins. 
 
-Ce programme à été testé avec succès sur une machine sous Ubuntu 24.04
+Ce programme à été testé avec succès sur les machines suivantes : 
+- Ubuntu 24.04
+- Raspberry pi os, on a raspberry pi 3 b+
 ## Prérequis 
 Assurez-vous que git est installé sur la machine avant de lancer ce programme. 
 ## Executer le programme 
